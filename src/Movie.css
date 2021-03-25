@@ -1,0 +1,38 @@
+.movie__data {
+  background-color: #fff;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px 3px rgb(73, 73, 73);
+}
+.movie__data img {
+  position: relative;
+  top: -40px;
+  height: 250px;
+  margin-left: 20px;
+  box-shadow: 10px 10px 14px 0px rgb(73, 73, 73);
+}
+.movie {
+  margin: 10px 30px;
+}
+.movie p {
+  word-break: break-word;
+}
+.movie ul {
+  padding: 0;
+}
+.movie li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+h2,
+h5 {
+  margin: 0;
+}
+h2 {
+  margin: 5px 0;
+}
+h5 {
+  color: gray;
+}
