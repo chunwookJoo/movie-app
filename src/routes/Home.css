@@ -1,0 +1,30 @@
+@import "./Loading.css";
+
+body {
+  background-color: #adadad;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.movies {
+  padding: 160px 300px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
+  gap: 180px;
+}
+.movies a {
+  text-decoration: none;
+}
+.movies a:link {
+  color: #000;
+}
+.movies a:visited {
+  color: rgb(197, 50, 190);
+}
+.movies a:hover {
+  color: gray;
+}
+.movies a:active {
+  color: red;
+}
